@@ -1,0 +1,292 @@
+html, body {
+      background: #103;
+      margin: 0em;
+      margin-top: 2em;
+      font-family: sans-serif;
+    }
+
+    svg {
+      background: linear-gradient(0deg, rgba(2, 6, 34, 255) 0%, rgba(1, 19, 117, 255) 33%, rgba(0, 38, 225, 255) 74%, rgba(1, 135, 254, 255) 100%);
+      ;
+      width: 90vmin;
+      height: 90vmin;
+      display: block;
+      margin: auto;
+      box-shadow: 0px 0px 10px #0006;
+    }
+
+    #seaweed1 {
+      animation: move2 1s linear infinite alternate;
+    }
+
+    #seaweed2 {
+      animation: move 1s linear infinite alternate;
+    }
+
+    #kelp1 {
+      animation: move3 1s linear infinite alternate;
+    }
+
+    #kelp2 {
+      animation: move4 1s linear infinite alternate;
+    }
+
+    #jelly {
+      animation: jelly 1s linear infinite alternate;
+    }
+
+    #jelly2 {
+      animation: jelly2 1s linear infinite alternate;
+    }
+
+    @keyframes move {
+      0% {
+        transform: translatex(0px);
+      }
+
+      100% {
+        transform: translatex(-0.6px);
+      }
+    }
+
+    @keyframes move2 {
+      0% {
+        transform: translatex(0px);
+      }
+
+      100% {
+        transform: translatex(0.6px);
+      }
+    }
+
+    @keyframes move3 {
+      0% {
+        transform: translatey(0px);
+      }
+
+      100% {
+        transform: translatey(-0.3px);
+      }
+    }
+
+    @keyframes move4 {
+      0% {
+        transform: translatey(0px);
+      }
+
+      100% {
+        transform: translatey(0.3px);
+      }
+    }
+
+    #fish1 {
+      animation: fishmove 24s linear infinite;
+    }
+
+    #fish2 {
+      animation: fishmove2 24s linear infinite;
+    }
+
+    #fish3 {
+      animation: fishmove3 24s linear infinite;
+    }
+
+    #fish4 {
+      animation: fishmove4 24s linear infinite;
+    }
+
+    #jellymove {
+      animation: jellymove 10s linear infinite alternate;
+    }
+
+    #jellymove2 {
+      animation: jellymove2 12s linear infinite alternate;
+    }
+
+    #jellymove3 {
+      animation: jellymove3 9s linear infinite alternate;
+    }
+
+    #jellymove4 {
+      animation: jellymove4 15s linear infinite alternate;
+    }
+
+    @keyframes fishmove {
+      0% {
+        transform: translatex(30px) translatey(0px) scale(1, 1);
+      }
+
+      20% {
+        transform: translatex(-24px) translatey(10px) scale(1, 1);
+      }
+
+      31% {
+        transform: translatex(-41px) translatey(-7px) scale(1, 1);
+      }
+
+      48% {
+        transform: translatex(-41px) translatey(-10px) scale(1, 1);
+      }
+
+      81% {
+        transform: translatex(131px) translatey(-10px) scale(-1, 1);
+      }
+
+      98% {
+        transform: translatex(200px) translatey(0px) scale(-1, 1);
+      }
+
+      100% {
+        transform: translatex(30px) translatey(0px) scale(1, 1);
+      }
+    }
+
+    @keyframes fishmove2 {
+      0% {
+        transform: translatex(20px) translatey(-5px) scale(1, 1);
+      }
+
+      18% {
+        transform: translatex(-14px) translatey(5px) scale(1, 1);
+      }
+
+      45% {
+        transform: translatex(-31px) translatey(-12px) scale(1, 1);
+      }
+
+      60% {
+        transform: translatex(-31px) translatey(-15px) scale(1, 1);
+      }
+
+      78% {
+        transform: translatex(121px) translatey(-15px) scale(-1, 1);
+      }
+
+      89% {
+        transform: translatex(190px) translatey(-5px) scale(-1, 1);
+      }
+
+      100% {
+        transform: translatex(20px) translatey(-8px) scale(1, 1);
+      }
+    }
+
+    @keyframes fishmove3 {
+      0% {
+        transform: translatex(5px) translatey(5px) scale(1, 1);
+      }
+
+      25% {
+        transform: translatex(-29px) translatey(15px) scale(1, 1);
+      }
+
+      38% {
+        transform: translatex(-46px) translatey(-2px) scale(1, 1);
+      }
+
+      64% {
+        transform: translatex(-46px) translatey(-5px) scale(1, 1);
+      }
+
+      81% {
+        transform: translatex(136px) translatey(-5px) scale(-1, 1);
+      }
+
+      90% {
+        transform: translatex(195px) translatey(5px) scale(-1, 1);
+      }
+
+      100% {
+        transform: translatex(25px) translatey(11px) scale(1, 1);
+      }
+    }
+
+    @keyframes fishmove4 {
+      0% {
+        transform: translatex(-5px) translatey(12px) scale(1, 1);
+      }
+
+      11% {
+        transform: translatex(-39px) translatey(22px) scale(1, 1);
+      }
+
+      24% {
+        transform: translatex(-56px) translatey(5px) scale(1, 1);
+      }
+
+      46% {
+        transform: translatex(-56px) translatey(2px) scale(1, 1);
+      }
+
+      79% {
+        transform: translatex(126px) translatey(2px) scale(-1, 1);
+      }
+
+      92% {
+        transform: translatex(185px) translatey(12px) scale(-1, 1);
+      }
+
+      100% {
+        transform: translatex(15px) translatey(18px) scale(1, 1);
+      }
+    }
+
+    @keyframes jelly {
+      0% {
+        transform: translatex(0px);
+      }
+
+      100% {
+        transform: translatex(-0.15px);
+      }
+    }
+
+    @keyframes jelly2 {
+      0% {
+        transform: translatex(0px);
+      }
+
+      100% {
+        transform: translatex(0.15px);
+      }
+    }
+
+    @keyframes jellymove {
+      0% {
+        transform: translatey(-17px);
+      }
+
+      100% {
+        transform: translatey(32px);
+      }
+    }
+
+    @keyframes jellymove2 {
+      0% {
+        transform: translatey(-4px);
+      }
+
+      100% {
+        transform: translatey(24px);
+      }
+    }
+
+    @keyframes jellymove3 {
+      0% {
+        transform: translatey(6px);
+      }
+
+      100% {
+        transform: translatey(-24px);
+      }
+    }
+
+    @keyframes jellymove4 {
+      0% {
+        transform: translatey(-16px);
+      }
+
+      100% {
+        transform: translatey(3px);
+      }
+    }
